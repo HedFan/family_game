@@ -1,0 +1,162 @@
+h1, h5, p, .modal-body {
+    font-family: 'Hattori Hanzo';
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 1.65rem;
+}
+
+p {
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.modal-body {
+    font-size: 1.15rem;
+}
+
+.container__description p {
+    font-size: 25px;
+}
+
+.input-letter {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../images/empty-square.png');
+    background-repeat: no-repeat;
+    background-size: 67px 67px;
+    background-position: center;
+    text-align: center;
+    font-size: 24px;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+
+.input-letter.input-letter--main {
+    background-image: url('../../images/empty-main-square.png');
+    background-repeat: no-repeat;
+    background-size: 67px 67px;
+    background-position: center;
+    font-weight: 900;
+}
+
+.input-letter.input-letter--space {
+    background-color: #bdbdbd;
+}
+
+.line-word span {
+    font-size: 15px;
+    margin-right: 3px;
+    vertical-align: top;
+    color: gray;
+}
+
+.line-word:nth-child(1) {
+    margin-left: 102px;
+}
+
+.line-word:nth-child(2) {
+    margin-left: 100px;
+}
+
+.line-word:nth-child(3) {
+    margin-left: 150px;
+}
+
+.line-word:nth-child(4) {
+    margin-left: 50px;
+}
+
+.line-word:nth-child(6) {
+    margin-left: 150px;
+}
+
+.line-word:nth-child(7) {
+    margin-left: 50px;
+}
+
+.line-word:nth-child(8) {
+    margin-left: 200px;
+}
+
+.line-word:nth-child(9) {
+    margin-left: 50px;
+}
+
+@media (max-width: 576px) {
+    .container__description p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .container__description {
+        margin-bottom: 0!important;
+    }
+
+    .container__questions p {
+        font-size: 17px;
+        line-height: 18px;
+        margin-bottom: 11px;
+        margin-top: 0!important;
+    }
+
+    .input-letter {
+        width: 20px;
+        height: 20px;
+        background-image: url('../../images/empty-square.png');
+        background-repeat: no-repeat;
+        background-size: 26px 26px;
+        background-position: center;
+        font-size: 15px;
+    }
+    .input-letter.input-letter--main {
+        background-image: url('../../images/empty-main-square.png');
+        background-repeat: no-repeat;
+        background-size: 26px 26px;
+        background-position: center;
+        font-weight: 900;
+    }
+    .line-word {
+        height: 21px;
+    }
+
+    .line-word:nth-child(1) {
+        margin-left: 52px;
+    }
+
+    .line-word:nth-child(2) {
+        margin-left: 50px;
+    }
+
+    .line-word:nth-child(3) {
+        margin-left: 70px;
+    }
+
+    .line-word:nth-child(4) {
+        margin-left: 30px;
+    }
+
+    .line-word:nth-child(5) {
+        margin-left: 10px;
+    }
+
+    .line-word:nth-child(6) {
+        margin-left: 70px;
+    }
+
+    .line-word:nth-child(7) {
+        margin-left: 30px;
+    }
+
+    .line-word:nth-child(8) {
+        margin-left: 89px;
+    }
+
+    .line-word:nth-child(9) {
+        margin-left: 29px;
+    }
+}
