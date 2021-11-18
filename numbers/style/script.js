@@ -80,5 +80,3 @@ function failFunction() {
     this.containerInput.parentNode.removeChild(this.containerInput);
     return false;
 }
-
-
