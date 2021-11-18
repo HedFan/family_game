@@ -1,0 +1,13 @@
+.awcache
+.idea
+.tmp
+.vscode
+.DS_Store
+.tsbuildinfo
+.npmrc
+Thumbs.db
+
+node_modules
+dist
+output
+bin
