@@ -1,0 +1,67 @@
+.space-letter {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../images/gray-square.png');
+    background-size: 50px 50px;
+    opacity: 0.13;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.answer-letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.answer-letter {
+    background-image: url('../../images/white-square.png');
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 24px;
+    pointer-events: none;
+}
+
+.answer-letter--enabled {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.answer-letter--correct {
+    background-image: url('../../images/white-empty-square.png');
+    background-repeat: no-repeat;
+    background-size: 54px 54px;
+    background-position: center;
+}
+
+.offered-letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 47px;
+}
+
+.offer-letter {
+    cursor: pointer;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../images/gray-square.png');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 24px;
+}
+
+.offer-letter--disabled {
+    color: darkgray;
+    cursor: default;
+    pointer-events: none;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Anagramz game</title>
+</head>
+<body>
+<div class="container mt-2">
+    <div class="container__description mb-5">
+        <h1 class="mb-2">Что за словосочетание?</h1>
+        <p>Перед тобой буквы из которых нужно составить словосочетание из двух слов. <br>Игра "анаграммы" - все просто :)</p>
+    </div>
+
+    <div class="container__game-filed col-7 mb-5">
+        <div class="answer-letters mb-4" id="answerLetters">
+        </div>
+        <div class="offered-letters col-10" id="offeredLetters">
+        </div>
+    </div>
+
+    <div class="container__reset-button col-3">
+        <button class="btn btn-info btn-block" type="button" id="button-addon2" onClick="resetLetters()">Reset</button>
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" hidden id="buttonModal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Congratulations!!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                Ты молодец, я в тебе и не сомневалась 😘😘😘
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<script src="./style/script.js"></script>
+</body>
+</html>
