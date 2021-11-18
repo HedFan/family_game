@@ -1,7 +1,7 @@
 const emptyAnswerText = "Empty answer!";
 const rightAnswerText = "Right answer!";
 const wrongAnswerText = "Wrong answer!";
-const loseText = "Ooops";
+const loseText = "Ooops...";
 const rightAnswer = '31';
 const modalTitle = document.getElementById('modalTitle');
 const modalBody = document.getElementById('modalBody');

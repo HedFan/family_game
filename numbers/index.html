@@ -12,27 +12,34 @@
 </head>
 <body>
 <div class="container mt-2">
-    <div class="container__description">
+    <div class="container__header">
         <h1 class="mb-2">Какого числа не хватает?</h1>
-        <p>Узнай какого числа не хватает и впиши свой ответ ниже.
-            <br>
-        Метод перебора тут не сработает - все продумано :)</p>
-    </div>
-    <div class="container__picture mb-5">
-        <img src="../images/image.png" alt="image" class="img-fluid">
-    </div>
-    <div class="container__input" id="containerInput" hidden>
-        <form action="" id="main-form">
-            <div class="input-group form-group col-5">
-                <input onkeypress="validate()" type="text" class="form-control" id="inputContent" placeholder="And your answer is..."
-                       aria-label="And your answer is..." aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-info" type="button" id="button-addon2" onClick="checkForm()">Check</button>
+        <div class="row">
+            <div class="container__picture mb-5 col-7">
+                <img src="../images/image.png" alt="image" class="img-fluid">
+            </div>
+            <div class="container__description mb-5 mt-4 col-4">
+                <p>Узнай какого числа не хватает и впиши свой ответ ниже.
+                    <br>
+                    Метод перебора тут не сработает - все продумано :)</p>
+
+                <div class="container__input mt-5" id="containerInput" hidden>
+                    <form action="" id="main-form">
+                        <div class="input-group form-group">
+                            <input onkeypress="validate()" type="text" class="form-control" id="inputContent"
+                                   placeholder="And your answer is..."
+                                   aria-label="And your answer is..." aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-info" type="button" id="button-addon2" onClick="checkForm()">Check
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="container__bad-result mt-5" id="containerBadResult">
                 </div>
             </div>
-        </form>
-    </div>
-    <div class="container__bad-result" id="containerBadResult">
+        </div>
     </div>
 </div>
 
@@ -59,8 +66,12 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 <script src="./style/script.js"></script>
 </body>
 </html>
