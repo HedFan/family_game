@@ -1,7 +1,7 @@
 h1, h2, h3, h5, p, .modal-body {
     font-family: 'Hattori Hanzo';
 }
-.row img {
+img {
     width: 100%;
 
 }
@@ -32,15 +32,15 @@ p {
     padding: 6px 20px;
 }
 
-.values p {
+.container__values p {
     font-size: 30px;
     line-height: 10px;
 }
-.values p span {
+.container__values p span {
     font-weight: bold;
 }
 
-.values .col-2 {
+.container__values .col-2 {
     padding-left: 40px;
 }
 
