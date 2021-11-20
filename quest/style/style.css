@@ -1,0 +1,50 @@
+h1, h2, h3, h5, p, .modal-body {
+    font-family: 'Hattori Hanzo';
+}
+img {
+    width: 100%;
+
+}
+h1 {
+    line-height: 0.95;
+    margin-bottom: 16px;
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.container__clue-button {
+    display: flex;
+}
+
+.container__clue-button p {
+    margin-bottom: 0;
+    margin-right: 15px;
+    align-self: center;
+    font-size: 25px;
+}
+
+.container__clue-button button {
+    font-size: 18px;
+    padding: 6px 20px;
+}
+
+.container__values p {
+    font-size: 30px;
+    line-height: 10px;
+}
+.container__values p span {
+    font-weight: bold;
+}
+
+.container__values .col-2 {
+    padding-left: 40px;
+}
+
+span.bold-style {
+    font-weight: bold;
+    text-decoration: underline;
+}
